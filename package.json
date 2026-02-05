@@ -1,0 +1,39 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "nodemon": "^3.1.11",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  },
+  "name": "djai-djai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "baseline-browser-mapping": "^2.9.19",
+    "bcryptjs": "^3.0.3",
+    "browserslist": "^4.28.1",
+    "caniuse-lite": "^1.0.30001767",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "electron-to-chromium": "^1.5.286",
+    "escalade": "^3.2.0",
+    "express": "^5.2.1",
+    "fraction.js": "^5.3.4",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.1.6",
+    "nanoid": "^3.3.11",
+    "node-releases": "^2.0.27",
+    "picocolors": "^1.1.1",
+    "postcss-value-parser": "^4.2.0",
+    "source-map-js": "^1.2.1",
+    "update-browserslist-db": "^1.2.3"
+  },
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

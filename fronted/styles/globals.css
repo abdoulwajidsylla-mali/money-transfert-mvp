@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wave {
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.wave:active {
+  transform: translateY(10px);
+}
